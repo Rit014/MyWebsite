@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bg{
+    background-image: url("Images/backgroundImg.png");
+    opacity: 1;
+    width: 100%;
+}
+.div1{
+    padding: 10px;
+    color: #fff;
+}
+.bg1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 1)) , url("Images/groupOfPeople.jpg");
+    width: 98%;
+}
+.div1 .content{
+    margin-right: 30%;
+    width: 80%;
+}
+.content{
+    width: 400vw;
+}
+.div1 h2{
+    font-weight:bolder;
+    font-size: 2rem;
+    color:rgb(228, 40, 77)
+}
+.mb-4{
+    margin-bottom: 1.5rem !important;
+}
+.div2 img{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.breadcrumb{
+    background-color: #1b1b1b9c;
+    padding: 0.5rem;
+}
+.breadcrumb-item{
+    text-decoration: none;
+    color: #fff;
+}
+.breadcrumb-item a{
+    text-decoration: none;
+    color: #fff;
+}
+hr{
+    margin: 1rem 0;
+    border: 1px solid White;
+    opacity: 1;
+}
+.btn{
+    padding: 7px;
+    line-height: 1.5;
+    width: 90%;
+    display: inline-block;
+    color: #fff;
+}
+.btn-danger{
+    color: #fff;
+    border: rgb(228, 40, 77);
+    border: 5px;
+}
+.btn-danger:hover{
+    color: #fff;
+    background-color: rgb(228, 40, 77);
+    border: rgb(228, 40, 77);
+    border: 5px;
+}
+
+/* Footer */
+.footer{
+    height: 40vh;
+    padding: 30px;
+    width: 100%;
+}
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+ul a{
+    padding: 10px;
+}
+.cpy{
+    margin-left: 20%;
+}
+
+:before{
+    box-sizing: border-box;
+}
+.fa-facebook-f:before{
+    content: "\f09a"
+}
+
